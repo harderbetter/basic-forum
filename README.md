@@ -1,11 +1,4 @@
-# basic-forum
-
-We generate a forum system where a user can login, see a list of topics, see the messages under a topic, can add a message to any topic. A user should be able to delete one of their own messages and edit one of their own messages.
-
-How to run the code?
-
-Copy all the code to the new cloud9 space.
-Then initialize back-end mysql database in cloud9:
+Initial back-end mysql database in cloud9:
 
 mysql-ctl cli;
 CREATE USER 'mifeng'@'%' IDENTIFIED BY 'mifeng';
@@ -40,4 +33,4 @@ FOREIGN KEY (topic_name) REFERENCES topics(topic_name),
 PRIMARY KEY (comment_detail)
 ) engine=INNODB;
 
-Index_test.php is our index page!
+
